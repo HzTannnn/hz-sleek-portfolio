@@ -147,11 +147,11 @@ input, textarea {
 }
 
 ::selection {
-  background: var(--orange-yellow-crayola);
+  background: rgb(106, 172, 238);
   color: var(--smoky-black);
 }
 
-:focus { outline-color: var(--orange-yellow-crayola); }
+:focus { outline-color: rgb(106, 172, 238); }
 
 html { font-family: var(--ff-poppins); }
 
@@ -192,7 +192,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: var(--orange-yellow-crayola);
+  color: rgb(106, 172, 238);
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
@@ -360,7 +360,7 @@ main {
   right: -15px;
   border-radius: 0 15px;
   font-size: 13px;
-  color: var(--orange-yellow-crayola);
+  color: rgb(106, 172, 238);
   background: var(--border-gradient-onyx);
   padding: 10px;
   box-shadow: var(--shadow-2);
@@ -485,7 +485,7 @@ main {
 .navbar-link:hover,
 .navbar-link:focus { color: var(--light-gray-70); }
 
-.navbar-link.active { color: var(--orange-yellow-crayola); }
+.navbar-link.active { color: rgb(106, 172, 238); }
 
 
 
@@ -980,7 +980,7 @@ main {
   --scale: 0.8;
 
   background: var(--jet);
-  color: var(--orange-yellow-crayola);
+  color: rgb(106, 172, 238);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1620,7 +1620,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .filter-item button:hover { color: var(--light-gray-70); }
 
-  .filter-item button.active { color: var(--orange-yellow-crayola); }
+  .filter-item button.active { color: rgb(106, 172, 238) }
 
   /* portfolio and blog grid */
 

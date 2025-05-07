@@ -10,7 +10,7 @@
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/images/hz2.jpeg" type="image/jpeg">
 
   <!--
     - custom css link
@@ -177,9 +177,9 @@
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Achievement</button>
+          </li> -->
 
           <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Blog</button>
@@ -270,14 +270,14 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                <img src="./assets/images/software.svg" alt="sw release" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
+                <h4 class="h4 service-item-title">Software Release</h4>
 
                 <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
+                  Designs, implements, and maintains automated CI/CD pipelines to ensure smooth and reliable software releases.
                 </p>
               </div>
 
@@ -286,14 +286,14 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                <img src="./assets/images/program_mgmt.svg" alt="pm icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
+                <h4 class="h4 service-item-title">Program management</h4>
 
                 <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
+                  Experienced in software program management, I coordinate feature development with stakeholders and proactively solve problems.
                 </p>
               </div>
 
@@ -302,6 +302,79 @@
           </ul>
 
         </section>
+
+        <!--
+           - testimonials
+         -->
+ 
+         <section class="testimonials" style="display: none;">
+ 
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    text
+                  </p>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  text
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
 
         <!--
           - Past Experience
@@ -313,15 +386,15 @@
 
           <ul class="clients-list has-scrollbar">
 
-            <li class="clients-item">
+            <li class="clients-item" style="max-width: 10%;">
               <a href="https://www.motorolasolutions.com/en_xp/about.html">
-                <img src="./assets/images/msi_logo_2.png" alt="client logo">
+                <img src="./assets/images/msi_logo_2.png" alt="client logo" style="border-radius: 25px;" >
               </a>
             </li>
 
-            <li class="clients-item">
+            <li class="clients-item" style="max-width: 10%;">
               <a href="https://www.amd.com/en.html">
-                <img src="./assets/images/amd_logo_2.png" alt="client logo">
+                <img src="./assets/images/amd_logo_2.png" alt="client logo" style="border-radius: 25px;">
               </a>
             </li>
 
@@ -345,7 +418,6 @@
       -->
 
       <article class="resume" data-page="resume">
-
         <header>
           <h2 class="h2 article-title">Resume</h2>
         </header>
@@ -354,51 +426,59 @@
 
           <div class="title-wrapper">
             <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <ion-icon name="briefcase-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Education</h3>
+            <h3 class="h3">Working Experience</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
-
-              <span>2007 — 2008</span>
+              <h4 class="h4 timeline-item-title">Advanced Micro Devices (AMD), Penang</h4>
+              <span>MTS (Member of Technical Staff) Product Development Engineer</span>
+              <span>2021 — Present</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                EPYC server product, Post validation, Automation Lead
+                Coach
+                Scrum master
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
-
-              <span>2006 — 2007</span>
+              <h4 class="h4 timeline-item-title">Motorola Solutions Inc., Penang</h4>
+              <span>Senior Software Engineer</span>
+              <span>2016 - 2020</span>
 
               <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
+                <br>●Software development in embedded systems
+                inclusive of specification definition, design,
+                implementation and testing.
+                <br>●Provide necessary analysis on problems,
+                projects as well as reviewing technical work.
+                <br>● Assess, identify, and provide solutions on
+                automation setup and script creation.
+                <br>●Practice AGILE for software deliverables as a
+                Scrum Master as well as developer.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
+              <h4 class="h4 timeline-item-title">Motorola Solutions Inc., Penang</h4>
+              <span>Software Intern</span>
+              <span>2015</span>
 
               <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
+                <br>●Setup and maintain automation server.
+                <br>●Create automation scripts for repetitive tests.
+                <br>●Porting of source code onto Jenkins
+                automation server for compiling and testing.
               </p>
 
             </li>
@@ -407,124 +487,187 @@
 
         </section>
 
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Creative director</h4>
-
-              <span>2015 — Present</span>
-
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
+        </br>
 
         <section class="skill">
 
-          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="compliteracy-list">
 
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
+            <li class="compliteracy-item">
+  
+              <div class="compliteracy-icon-box" >
+                <img src="./assets/images/icon-dev.svg" alt="computerliteracy icon" width="60">
               </div>
+  
+              <div class="compliteracy-content-box">
+                <h4 class="h4 compliteracy-item-title">Skills</h4>
+                <ul class="resume-compliteracy-list">
+  
+                  <li class="compliteracysectioncontent-item">
+                    <div class="icon-box">
+                      <img src="./assets/images/python.ico" alt="python icon" width="80%">   
+                    </div>
+                    <div class="compliteracy-info">
+                      <a class="compliteracy-title"></br> </a>
+                      <a class="compliteracy-link">Python</a>
+                    </div>
+                  </li>
+  
+                  <li class="compliteracysectioncontent-item">
+                    <div class="icon-box">
+                      <img src="./assets/images/postgres.svg" alt="postgres icon" width="80%">     
+                    </div>
+                    <div class="compliteracy-info">
+                      <a class="compliteracy-title"></br> </a>
+                      <a class="compliteracy-link">PostgresQL <br>Database</a>
+                    </div>
+                  </li>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
+                  <li class="compliteracysectioncontent-item">
+                    <div class="icon-box">
+                      <img src="./assets/images/c_prog.svg" alt="c icon" width="80%">      
+                    </div>
+                    <div class="compliteracy-info">
+                      <a class="compliteracy-title"></br> </a>
+                      <a class="compliteracy-link">C <br>Programming</a>
+                    </div>
+                  </li>
+
+                  <li class="compliteracysectioncontent-item">
+                    <div class="icon-box">
+                      <img src="./assets/images/github.ico" alt="git icon" width="80%">       
+                    </div>
+                    <div class="compliteracy-info">
+                      <a class="compliteracy-title"></br> </a>
+                      <a class="compliteracy-link">Git</a>
+                    </div>
+                  </li>
+
+                  <li class="compliteracysectioncontent-item">
+                    <div class="icon-box">
+                      <img src="./assets/images/jenkins.svg" alt="jenkins icon" width="80%">           
+                    </div>
+                    <div class="compliteracy-info">
+                      <a class="compliteracy-title"></br> </a>
+                      <a class="compliteracy-link">Jenkins</a>
+                    </div>
+                  </li>
+
+                  <li class="compliteracysectioncontent-item">
+                    <div class="icon-box">
+                      <img src="./assets/images/azure.svg" alt="azure icon" width="80%">           
+                    </div>
+                    <div class="compliteracy-info">
+                      <a class="compliteracy-title"></br> </a>
+                      <a class="compliteracy-link">Microsoft<br>Azure</a>
+                    </div>
+                  </li>
+
+                  <li class="compliteracysectioncontent-item">
+                    <div class="icon-box">
+                      <img src="./assets/images/gcp.svg" alt="gcp icon" width="80%">
+                    </div>
+                    <div class="compliteracy-info">
+                      <a class="compliteracy-title"></br> </a>
+                      <a class="compliteracy-link">Google <br>Cloud</a>
+                    </div>
+                  </li>
+
+                  <li class="compliteracysectioncontent-item">
+                    <div class="icon-box">
+                      <img src="./assets/images/vm.svg" alt="git icon" width="80%">
+                    </div>
+                    <div class="compliteracy-info">
+                      <a class="compliteracy-title"></br> </a>
+                      <a class="compliteracy-link">Hypervisor/</br>VMware</a>
+                    </div>
+                  </li>
+
+                  <li class="compliteracysectioncontent-item">
+                    <div class="icon-box">
+                      <img src="./assets/images/docker.svg" alt="htmlcss icon" width="80%">          
+                    </div>
+                    <div class="compliteracy-info">
+                      <a class="compliteracy-title"></br> </a>
+                      <a class="compliteracy-link">Docker</a>
+                    </div>
+                  </li>
+
+                  <li class="compliteracysectioncontent-item">
+                    <div class="icon-box">
+                      <img src="./assets/images/maas.svg" alt="vscode icon" width="80%">         
+                    </div>
+                    <div class="compliteracy-info">
+                      <a class="compliteracy-title"></br> </a>
+                      <a class="compliteracy-link">Canonical<br>MaaS</a>
+                    </div>
+                  </li>
+
+                  <li class="compliteracysectioncontent-item">
+        
+                    <div class="icon-box">
+                      <img src="./assets/images/rest.jpeg" alt="latex icon" width="80%">
+                    </div>
+                    <div class="compliteracy-info">
+                      <a class="compliteracy-title"></br> </a>
+                      <a class="compliteracy-link">RESTful<br>API</a>
+                    </div>
+                  </li>
+
+                  <li class="compliteracysectioncontent-item">
+                    <div class="icon-box">
+                      <img src="./assets/images/powerbi.png" alt="powerbi icon" width="80%">
+                    </div>
+                    <div class="compliteracy-info">
+                      <a class="compliteracy-title"></br> </a>
+                      <a class="compliteracy-link">Power BI</a>
+                    </div>
+                  </li>
+        
+                </ul>
               </div>
-
+  
             </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
           </ul>
+        </section>
 
+        </br>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Universiti Malaysia Perlis (UniMap), Perlis</h4>
+              <span>2012 — 2016</span>
+              <p class="timeline-text">
+                Bachelor's Degree in Engineering (Computer/Telecommunication)
+                <br>CGPA 3.93/4
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">SMK Seberang Jaya, Penang</h4>
+              <span>2010 — 2012</span>
+              <p class="timeline-text">
+                Higher Secondary/Pre-U in Sciences/STPM
+                <br>CGPA 3.0/4
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">SMK Bagan Jaya, Penang</h4>
+              <span>2005 — 2009</span>
+              <p class="timeline-text">
+                High school/SPM
+                <br>Science Class
+              </p>
+            </li>
+          </ol>
         </section>
 
       </article>
@@ -540,7 +683,7 @@
       <article class="portfolio" data-page="portfolio">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Achievement (WIP)</h2>
         </header>
 
         <section class="projects">
